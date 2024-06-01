@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dff8f8;
+}
+.contenedor {
+    background-color: #fff;
+    padding: 80px; 
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+input[type="number"] {
+    border-color:rgb(6, 78, 109);
+    padding: 10px;
+
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(115, 182, 223);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+#resultado {
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(69, 30, 185);
+    padding: 20px;
+}
